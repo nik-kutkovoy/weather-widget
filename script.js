@@ -17,7 +17,7 @@
 //   });
 
 fetch(
-  "http://api.openweathermap.org/data/2.5/weather?id=694590&appid=57da10b96f248d822927a5b48f45bbdf"
+  "https://api.openweathermap.org/data/2.5/weather?id=694590&appid=57da10b96f248d822927a5b48f45bbdf"
 )
   .then(function (resp) {
     return resp.json();
@@ -38,4 +38,3 @@ fetch(
   .catch(function () {
     // catch any errors
   });
-console.log('Work');
