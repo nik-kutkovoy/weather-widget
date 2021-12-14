@@ -33,7 +33,7 @@ fetch(
       data.weather[0].description;
     document.querySelector(
       ".wind"
-    ).textContent = `wind speed: ${data.wind.speed}`;
+    ).textContent = `wind speed: ${data.wind.speed} m/s`;
   })
   .catch(function () {
     // catch any errors
