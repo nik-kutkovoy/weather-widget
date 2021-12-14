@@ -38,3 +38,4 @@ fetch(
   .catch(function () {
     // catch any errors
   });
+console.log('Work');
